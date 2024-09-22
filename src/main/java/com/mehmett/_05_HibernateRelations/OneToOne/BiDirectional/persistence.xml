@@ -7,8 +7,8 @@
     <persistence-unit name="pu_hibernate">
 
 
-        <class>com.mehmett._05_HibernateRelations.ManyToMany.BiDirectional.entity.Group</class>
-        <class>com.mehmett._05_HibernateRelations.ManyToMany.BiDirectional.entity.User</class>
+        <class>com.mehmett._05_HibernateRelations.OneToOne.BiDirectional.entity.Car</class>
+        <class>com.mehmett._05_HibernateRelations.OneToOne.BiDirectional.entity.Personel</class>
 
         <properties>
             <property name="jakarta.persistence.jdbc.driver"
